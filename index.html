@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Ната Лазер Студио - Лазерная эпиляция в Стерлитамаке</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Блок с фоновым изображением (шапка + герой) -->
+    <div class="hero-bg" style="background-image: url('6_-1.png');">
+        <header class="header">
+            <div class="container header-container">
+                <div class="logo">
+                    <span class="logo-icon"></span>
+                    Ната Лазер Студио
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#services">Товары и услуги</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#news">Новости и статьи</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-buttons">
+                    <a href="pages/appointment.html" class="btn-primary">ЗАПИСАТЬСЯ</a>
+                    <div class="mobile-menu-btn" id="mobileMenuBtn">☰</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Герой-секция -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>Лазерная эпиляция <span class="highlight">без боли и компромиссов</span></h1>
+                    <p>Современное оборудование | Медицинское образование | Результат после первой процедуры</p>
+                    <a href="pages/appointment.html" class="btn-primary">Записаться на консультацию</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Секция: Товары и услуги со стрелками -->
+<section id="services" class="services section">
+    <div class="container">
+        <h2 class="section-title">Товары и услуги</h2>
+        <div class="services-slider-container">
+            <button class="slider-arrow services-prev-arrow" id="servicesPrevBtn">❮</button>
+            <div class="services-slider-wrapper">
+                <div class="services-grid" id="servicesGrid">
+                    <!-- Услуга 1 -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="Лепестки.jfif" alt="Электроэпиляция">
+                            <h3 class="image-title">Электроэпиляция</h3>
+                        </div>
+                        <div class="service-content">
+                            <p>Эстетическое удаление волос</p>
+                            <a href="pages/service-electroepilation.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Услуга 2 -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="Лепестки.jfif" alt="Скидки и предложения">
+                            <h3 class="image-title">Скидки и предложения</h3>
+                        </div>
+                        <div class="service-content">
+                            <p>Актуальные спецпредложения</p>
+                            <a href="pages/service-discounts.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Услуга 3 -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="Лепестки.jfif" alt="Обучение">
+                            <h3 class="image-title">Обучение</h3>
+                        </div>
+                        <div class="service-content">
+                            <p>Курс правильной электроэпиляции с нуля</p>
+                            <a href="pages/service-training.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Услуга 4 (новая) -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="Лепестки.jfif" alt="Лазерная эпиляция">
+                            <h3 class="image-title">Лазерная эпиляция</h3>
+                        </div>
+                        <div class="service-content">
+                            <p>Безболезненное удаление волос на любом участке тела</p>
+                            <a href="pages/service-laser.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Услуга 5 (новая) -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="Лепестки.jfif" alt="Удаление пигментации">
+                            <h3 class="image-title">Удаление пигментации</h3>
+                        </div>
+                        <div class="service-content">
+                            <p>Избавление от возрастных и солнечных пятен</p>
+                            <a href="pages/service-pigmentation.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Услуга 6 (новая) -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="Лепестки.jfif" alt="Коррекция рубцов">
+                            <h3 class="image-title">Коррекция рубцов</h3>
+                        </div>
+                        <div class="service-content">
+                            <p>Сглаживание и уменьшение видимости рубцов</p>
+                            <a href="pages/service-scars.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Пустые блоки для плавной прокрутки -->
+                    <div class="service-card placeholder"></div>
+                    <div class="service-card placeholder"></div>
+                </div>
+            </div>
+            <button class="slider-arrow services-next-arrow" id="servicesNextBtn">❯</button>
+        </div>
+    </div>
+</section>
+
+    <!-- Секция: О нас (изображение справа, меньшего размера, без бейджа) -->
+<section id="about" class="about section">
+    <div class="container">
+        <h2 class="section-title">О нас</h2>
+        <div class="about-wrapper">
+            <div class="about-content">
+                <p class="about-intro"><strong>«Ната Лазер Студио»</strong> — это специализированный салон красоты с фокусом на лазерную эпиляцию и аппаратную косметологию.</p>
+                <ul class="about-features">
+                    <li><span class="check"></span> <strong>Оборудование:</strong> Сертифицированные лазеры последнего поколения (диодный, александрит, Nd:YAG).</li>
+                    <li><span class="check"></span> <strong>Специалисты:</strong> Косметологи с медицинским образованием.</li>
+                    <li><span class="check"></span> <strong>Услуги:</strong> Лазерная эпиляция, удаление пигментации, коррекция рубцов.</li>
+                    <li><span class="check"></span> <strong>Безопасность:</strong> Стерильность на уровне клиники.</li>
+                    <li><span class="check"></span> <strong>Результат:</strong> Гладкая кожа без раздражения.</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="KfZKb-5ImnzSB_TgG2W9nOehvmDwSBTwfjggg4GZu4YEuq7ZzDr-_UV0fSuyWFz8wXO5xVfequ4tI4Vq-skDBWuE.jpg" alt="Наш салон">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Секция: Новости и статьи со стрелками -->
+<section id="news" class="news section">
+    <div class="container">
+        <h2 class="section-title">Новости и статьи</h2>
+        <div class="news-slider-container">
+            <button class="slider-arrow news-prev-arrow" id="newsPrevBtn">❮</button>
+            <div class="news-slider-wrapper">
+                <div class="news-grid" id="newsGrid">
+                    <!-- Новость 1 -->
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="XXL.jfif" alt="Массаж B-FLEXY">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-num">1</div>
+                            <h3>Преимущества массажа B-FLEXY</h3>
+                            <a href="pages/news-massage.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Новость 2 -->
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="загруженное (400).jfif" alt="Удаление волос">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-num">2</div>
+                            <h3>Выберите свой способ удаления волос</h3>
+                            <a href="pages/news-hair-removal.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Новость 3 -->
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="Depilación láser.jfif" alt="Оборудование">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-num">3</div>
+                            <h3>Современное оборудование</h3>
+                            <a href="pages/news-equipment.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Новость 4 (новая) -->
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="загруженное (500).jfif" alt="Лазерная эпиляция">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-num">4</div>
+                            <h3>Лазерная эпиляция: мифы и реальность</h3>
+                            <a href="pages/news-laser-myths.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Новость 5 (новая) -->
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="загруженное (19).jfif" alt="Уход за кожей">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-num">5</div>
+                            <h3>Как ухаживать за кожей после эпиляции</h3>
+                            <a href="pages/news-cosmetology.html" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Новость 6 (новая) -->
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="загруженное (100).jfif" alt="Косметология">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-num">6</div>
+                            <h3>Аппаратная косметология: что нового?</h3>
+                            <a href="#" class="btn-outline">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <!-- Пустые блоки для плавной прокрутки -->
+                    <div class="news-item placeholder"></div>
+                    <div class="news-item placeholder"></div>
+                </div>
+            </div>
+            <button class="slider-arrow news-next-arrow" id="newsNextBtn">❯</button>
+        </div>
+    </div>
+</section>
+
+    <!-- Секция: Отзывы (сетка как на прототипе + кнопка "Показать еще") -->
+<section id="reviews" class="reviews section">
+    <div class="container">
+        <h2 class="section-title">Отзывы</h2>
+        <div class="reviews-wrapper">
+            <div class="reviews-grid" id="reviewsGrid">
+                <!-- Видимые отзывы -->
+                
+                <!-- 1. Алена Н. (клиент) -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="Top Shaggy Hairstyles for Women – Volume, Texture & Trendy Looks - Fascinate Names.jfif" alt="Аватар">
+                        </div>
+                        <div class="review-author">
+                            <h4>Алена Н.</h4>
+                            <span class="review-status client">Клиент</span>
+                        </div>
+                    </div>
+                    <p>Лазерная эпиляция это лучшее изобретение человека)) Абсолютно безболезненно, результат радует уже после первой процедуры. Спасибо Наталье за профессионализм!</p>
+                </div>
+                
+                <!-- 2. Наталья У. (админ) -->
+                <div class="review-card admin-response">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="KfZKb-5ImnzSB_TgG2W9nOehvmDwSBTwfjggg4GZu4YEuq7ZzDr-_UV0fSuyWFz8wXO5xVfequ4tI4Vq-skDBWuE.jpg" alt="Наталья">
+                        </div>
+                        <div class="review-author">
+                            <h4>Наталья У.</h4>
+                            <span class="review-status admin">Администратор</span>
+                        </div>
+                    </div>
+                    <p>Алена, спасибо большое за добрые слова. Я очень рада, что вам понравилось! Жду вас на следующую процедуру.</p>
+                </div>
+                
+                <!-- 3. Ульяна Т. (клиент) -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="загруженное (150).jfif" alt="Аватар">
+                        </div>
+                        <div class="review-author">
+                            <h4>Ульяна Т.</h4>
+                            <span class="review-status client">Клиент</span>
+                        </div>
+                    </div>
+                    <p>Долго сопротивлялась! Было много противоречений, но теперь жалею, что не пришла раньше. Кожа идеальная, никаких вросших волосков.</p>
+                </div>
+                
+                <!-- 4. Наталья У. (админ) -->
+                <div class="review-card admin-response">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="KfZKb-5ImnzSB_TgG2W9nOehvmDwSBTwfjggg4GZu4YEuq7ZzDr-_UV0fSuyWFz8wXO5xVfequ4tI4Vq-skDBWuE.jpg" alt="Наталья">
+                        </div>
+                        <div class="review-author">
+                            <h4>Наталья У.</h4>
+                            <span class="review-status admin">Администратор</span>
+                        </div>
+                    </div>
+                    <p>Ульяна, спасибо, моя дорогая, очень рада, что всё у тебя получилось! Главное — довериться профессионалам.</p>
+                </div>
+                
+                <!-- 5. Оксана В. (клиент) -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="загруженное (18).jfif" alt="Аватар">
+                        </div>
+                        <div class="review-author">
+                            <h4>Оксана В.</h4>
+                            <span class="review-status client">Клиент</span>
+                        </div>
+                    </div>
+                    <p>Очень долго мечтала о гладкой и красивой коже. Испробовала всё — воск, шугаринг. Лазер — это прорыв! Спасибо студии за подход.</p>
+                </div>
+                
+                <!-- 6. Наталья У. (админ) -->
+                <div class="review-card admin-response">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="KfZKb-5ImnzSB_TgG2W9nOehvmDwSBTwfjggg4GZu4YEuq7ZzDr-_UV0fSuyWFz8wXO5xVfequ4tI4Vq-skDBWuE.jpg" alt="Наталья">
+                        </div>
+                        <div class="review-author">
+                            <h4>Наталья У.</h4>
+                            <span class="review-status admin">Администратор</span>
+                        </div>
+                    </div>
+                    <p>Оксана, спасибо большое. Я благодарна за твой выбор и доверие. Радовать вас — моя главная цель!</p>
+                </div>
+                
+                <!-- Дополнительные отзывы (скрыты по умолчанию) -->
+                
+                <!-- 7. Екатерина М. (клиент) -->
+                <div class="review-card extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="загруженное (450).jfif" alt="Аватар">
+                        </div>
+                        <div class="review-author">
+                            <h4>Екатерина М.</h4>
+                            <span class="review-status client">Клиент</span>
+                        </div>
+                    </div>
+                    <p>Посетила студию впервые. Очень понравилось отношение персонала и чистота. Процедура прошла комфортно, результат отличный. Обязательно приду еще!</p>
+                </div>
+                
+                <!-- 8. Наталья У. (админ) -->
+                <div class="review-card admin-response extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="KfZKb-5ImnzSB_TgG2W9nOehvmDwSBTwfjggg4GZu4YEuq7ZzDr-_UV0fSuyWFz8wXO5xVfequ4tI4Vq-skDBWuE.jpg" alt="Наталья">
+                        </div>
+                        <div class="review-author">
+                            <h4>Наталья У.</h4>
+                            <span class="review-status admin">Администратор</span>
+                        </div>
+                    </div>
+                    <p>Екатерина, спасибо за тёплые слова! Всегда рады вас видеть. Следите за нашими акциями!</p>
+                </div>
+                
+                <!-- 9. Дмитрий П. (клиент) -->
+                <div class="review-card extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="midjourney.jfif" alt="Аватар">
+                        </div>
+                        <div class="review-author">
+                            <h4>Дмитрий П.</h4>
+                            <span class="review-status client">Клиент</span>
+                        </div>
+                    </div>
+                    <p>Делал лазерную эпиляцию спины и плеч. Результат превзошёл ожидания. Волосы стали намного тоньше и растут медленнее. Рекомендую!</p>
+                </div>
+                
+                <!-- 10. Наталья У. (админ) -->
+                <div class="review-card admin-response extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="KfZKb-5ImnzSB_TgG2W9nOehvmDwSBTwfjggg4GZu4YEuq7ZzDr-_UV0fSuyWFz8wXO5xVfequ4tI4Vq-skDBWuE.jpg" alt="Наталья">
+                        </div>
+                        <div class="review-author">
+                            <h4>Наталья У.</h4>
+                            <span class="review-status admin">Администратор</span>
+                        </div>
+                    </div>
+                    <p>Дмитрий, благодарю за отзыв! Рады, что вы остались довольны результатом. Для мужчин у нас тоже есть специальные условия.</p>
+                </div>
+                
+                <!-- 11. Ирина С. (клиент) -->
+                <div class="review-card extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="vkh.jfif" alt="Аватар">
+                        </div>
+                        <div class="review-author">
+                            <h4>Ирина С.</h4>
+                            <span class="review-status client">Клиент</span>
+                        </div>
+                    </div>
+                    <p>Хожу уже полгода, кожа стала идеально гладкой. Очень удобное расположение, приятная атмосфера. Наталья — профессионал своего дела!</p>
+                </div>
+                
+                <!-- 12. Наталья У. (админ) -->
+                <div class="review-card admin-response extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="KfZKb-5ImnzSB_TgG2W9nOehvmDwSBTwfjggg4GZu4YEuq7ZzDr-_UV0fSuyWFz8wXO5xVfequ4tI4Vq-skDBWuE.jpg" alt="Наталья">
+                        </div>
+                        <div class="review-author">
+                            <h4>Наталья У.</h4>
+                            <span class="review-status admin">Администратор</span>
+                        </div>
+                    </div>
+                    <p>Ирина, спасибо большое за доверие и такой чудесный отзыв! Всегда ваша.</p>
+                </div>
+                
+                <!-- 13. Анна К. (клиент) -->
+                <div class="review-card extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="загруженное (350).jfif" alt="Аватар">
+                        </div>
+                        <div class="review-author">
+                            <h4>Анна К.</h4>
+                            <span class="review-status client">Клиент</span>
+                        </div>
+                    </div>
+                    <p>Отличный салон! Делала удаление сосудистых звёздочек. Всё прошло быстро и безболезненно. Результат заметен сразу. Спасибо!</p>
+                </div>
+                
+                <!-- 14. Наталья У. (админ) -->
+                <div class="review-card admin-response extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="KfZKb-5ImnzSB_TgG2W9nOehvmDwSBTwfjggg4GZu4YEuq7ZzDr-_UV0fSuyWFz8wXO5xVfequ4tI4Vq-skDBWuE.jpg" alt="Наталья">
+                        </div>
+                        <div class="review-author">
+                            <h4>Наталья У.</h4>
+                            <span class="review-status admin">Администратор</span>
+                        </div>
+                    </div>
+                    <p>Анна, спасибо за отзыв! Рада, что вам помогла наша процедура. Ждём вас снова!</p>
+                </div>
+                
+                <!-- 15. Сергей В. (клиент) -->
+                <div class="review-card extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="загруженное (20).jfif" alt="Аватар">
+                        </div>
+                        <div class="review-author">
+                            <h4>Сергей В.</h4>
+                            <span class="review-status client">Клиент</span>
+                        </div>
+                    </div>
+                    <p>Пришёл по рекомендации жены. Очень доволен! Персонал вежливый, оборудование современное. Процедура комфортная.</p>
+                </div>
+                
+                <!-- 16. Наталья У. (админ) -->
+                <div class="review-card admin-response extra-review">
+                    <div class="review-header">
+                        <div class="review-avatar">
+                            <img src="KfZKb-5ImnzSB_TgG2W9nOehvmDwSBTwfjggg4GZu4YEuq7ZzDr-_UV0fSuyWFz8wXO5xVfequ4tI4Vq-skDBWuE.jpg" alt="Наталья">
+                        </div>
+                        <div class="review-author">
+                            <h4>Наталья У.</h4>
+                            <span class="review-status admin">Администратор</span>
+                        </div>
+                    </div>
+                    <p>Сергей, спасибо большое! Передавайте привет супруге. Рады, что вам понравилось!</p>
+                </div>
+            </div>
+            
+            <!-- Кнопка "Показать еще" со стрелкой вниз -->
+            <div class="reviews-show-more">
+                <button id="showMoreReviewsBtn" class="btn-show-more">
+                    <span>Показать еще отзывы</span>
+                    <span class="arrow-down">▼</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Секция: Контакты (без кнопки "Позвонить") -->
+<section id="contacts" class="contacts section">
+    <div class="container">
+        <h2 class="section-title">Контакты</h2>
+        <div class="contacts-wrapper">
+            <div class="contacts-map">
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=56.000000%2C53.000000&z=14" width="100%" height="300" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="map-note">
+                    <p>ул. Артема, д. 76, Стерлитамак</p>
+                    <p class="work-hours">Пн-Сб: 10:00 - 20:00 | Вс: 11:00 - 18:00</p>
+                </div>
+            </div>
+            <div class="contacts-info">
+                <div class="contact-phone">
+                    <strong>Контактный телефон:</strong><br>
+                    <a href="tel:+79177968566">+7 (917) 796-85-66</a>
+                </div>
+                <div class="contact-social">
+                    <strong>WhatsApp:</strong><br>
+                    <a href="https://wa.me/+79177968566" target="_blank">(Наталья) https://wa.me/+79177968566</a><br>
+                    <a href="https://wa.me/+79196190711" target="_blank">(Эльвира) https://wa.me/+79196190711</a>
+                </div>
+                <div class="contact-social">
+                    <strong>Telegram:</strong><br>
+                    <a href="https://t.me/nata_laser" target="_blank">https://t.me/nata_laser</a>
+                </div>
+                <div class="contact-social">
+                    <strong>Instagram:</strong><br>
+                    <a href="https://instagram.com/nata_laser" target="_blank">https://instagram.com/nata_laser</a>
+                </div>
+                <div class="contact-social">
+                    <strong>Вконтакте:</strong><br>
+                    <a href="https://vk.com/nata_laser_str" target="_blank">https://vk.com/nata_laser_str</a>
+                </div>
+                <div class="contact-address">
+                    <strong>Россия, Республика Башкортостан,<br> г. Стерлитамак, ул. Артема, д. 76</strong>
+                </div>
+                <!-- Кнопка ПОЗВОНИТЬ УДАЛЕНА ОТСЮДА -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="footer-left">
+                <p>© 2026 Ната Лазер Студио — Лазерная эпиляция в Стерлитамаке</p>
+                <div class="footer-social">
+                    <a href="https://wa.me/+79177968566">WhatsApp</a>
+                    <a href="https://t.me/nata_laser">Telegram</a>
+                    <a href="https://instagram.com/nata_laser">Instagram</a>
+                    <a href="https://vk.com/nata_laser_str">VK</a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <a href="tel:+79177968566" class="btn-call-footer">ПОЗВОНИТЬ</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="java/script.java"></script>
+</body>
+</html>
