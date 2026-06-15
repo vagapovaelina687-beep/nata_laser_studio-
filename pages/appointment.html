@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Записаться - Ната Лазер Студио</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-content {
+            max-width: 600px;
+            margin: 120px auto 60px;
+            padding: 40px;
+            background: #fff;
+            border-radius: 28px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #c44569;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover { text-decoration: underline; }
+        .page-content h1 { color: #c44569; margin-bottom: 10px; text-align: center; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 30px; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; font-weight: 500; color: #333; }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #c44569;
+            box-shadow: 0 0 0 3px rgba(196,69,105,0.1);
+        }
+        .btn-submit {
+            width: 100%;
+            background: #c44569;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+        .btn-submit:hover {
+            background: #a83453;
+            transform: scale(1.02);
+        }
+        .contacts-info {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+        }
+        .contacts-info a { color: #c44569; text-decoration: none; }
+        .contacts-info a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="page-content">
+        <a href="../index.html" class="back-link">← На главную</a>
+        <h1>Записаться</h1>
+        <p class="subtitle">Оставьте заявку, и мы свяжемся с вами в ближайшее время</p>
+        
+        <form id="appointmentForm">
+            <div class="form-group">
+                <label>Ваше имя *</label>
+                <input type="text" id="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Телефон *</label>
+                <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Услуга</label>
+                <select id="service">
+                    <option value="">Выберите услугу</option>
+                    <option>Электроэпиляция</option>
+                    <option>Лазерная эпиляция</option>
+                    <option>Удаление пигментации</option>
+                    <option>Коррекция рубцов</option>
+                    <option>Обучение электроэпиляции</option>
+                    <option>Консультация</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Удобное время</label>
+                <input type="text" placeholder="Например: 14 июня, с 16:00">
+            </div>
+            
+            <div class="form-group">
+                <label>Комментарий</label>
+                <textarea rows="3" placeholder="Дополнительная информация..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit">Отправить заявку</button>
+        </form>
+        
+        <div class="contacts-info">
+            <p>Или свяжитесь с нами напрямую:</p>
+            <p><a href="tel:+79177968566">+7 (917) 796-85-66</a> (Наталья)</p>
+            <p><a href="https://wa.me/+79177968566" target="_blank">Написать в WhatsApp</a></p>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            if(name) {
+                alert('Спасибо, ' + name + '! Ваша заявка отправлена. Мы свяжемся с вами в ближайшее время.');
+                this.reset();
+            } else {
+                alert('Пожалуйста, заполните имя и телефон.');
+            }
+        });
+    </script>
+</body>
+</html>
